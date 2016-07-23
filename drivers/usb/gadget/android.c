@@ -99,10 +99,10 @@ MODULE_LICENSE("GPL");
 MODULE_VERSION("1.0");
 
 static const char longname[] = "Gadget Android";
-//replace model to IUNI
+
 #ifdef CONFIG_GN_Q_BSP_SUPPORT
-#define GN_PRODUCT_MODEL "U810"
-#define GN_PRODUCT_MANUFACTURER "IUNI"
+#define GN_PRODUCT_MODEL "GN715"
+#define GN_PRODUCT_MANUFACTURER "GiONEE"
 #endif
 
 /* Default vendor and product IDs, overridden by userspace */
